@@ -1,0 +1,1508 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>News</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a class="list" href="#">About</a>
+                <a class="list" href="#">Services</a>
+                <a class="list" href="#">Clients</a>
+                <a class="list" href="#">Contact</a>
+
+                <div class="social">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-dribbble"></i>
+                    <i class="fab fa-soundcloud"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+
+                <form>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <div class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="navTop disappearForMobil">
+                <div class="container">
+                    <div class="navTopLeft ">
+                        <div class="time">
+                            <i class="far fa-clock"></i>
+                            <p>Wednesday, 30 September 2020</p>
+                        </div>
+                        <div class="topNewsHeader">
+                            Breaking News
+                        </div>
+                        <div class="topNews">
+                            Success is not a daily issue
+                        </div>
+                    </div>
+                    <div class="navTopRight">
+                        <div class="rihtIcons">
+                            <i class="fas fa-chevron-left left-right"></i>
+                            <i class="fas fa-chevron-right left-right"></i>
+                            <div class="disappearForTablet">
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-dribbble"></i>
+                                <i class="fab fa-soundcloud"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fas fa-user-circle"></i>
+                                <i class="fas fa-bars"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="navLogo navMiddle">
+                <!--display flex yapacaz   media queryde justfy content yapıp log ortaya yapıcaz toggle navbar icon sola gelecek-->
+                <div class="container">
+
+                    <div class="logo">
+                        <div class="mobilToggle">
+                            <div class="left showOnTablet">
+                                <span style="cursor: pointer;" onclick="openNav()"> &#9776; </span>
+                                <i class="fas fa-search"></i>
+                            </div>
+                            <img src="assets/logo.jpg" width="300" height="49" alt="habernokta">
+
+                            <div class="right showOnTablet">
+                                <i class="fas fa-shopping-bag"></i>
+                                <i class="far fa-moon"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="adBanner">
+                        <img src="assets/ads1.jpg" alt="reklam" width="auto">
+                    </div>
+                </div>
+            </div>
+            <div class="navMainWrapper disappearForTablet">
+                <div class="container">
+                    <div class="navMain">
+                        <div class="navMain-Left">
+                            <ul>
+
+                                <li>HOME </li>
+                                <li>WORLD</li>
+                                <li>SPORTS</li>
+                                <li>TECH</li>
+                                <li>COMMUNITY</li>
+                                <li>SHOP</li>
+                                <li>FEATURES</li>
+                                <li>&#x22EF;</li>
+
+                            </ul>
+                        </div>
+                        <div class="navMain-Right">
+                            <ul>
+                                <li><i class="far fa-moon"></i></li>
+                                <li>Ankara 28&#x2103;</li>
+                                <li><i class="fas fa-shopping-bag"></i></li>
+                                <li><i class="fas fa-random"></i></li>
+                                <li>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control nav-search" placeholder="Search for">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-secondary nav-search-icon" type="button">
+                                                <i class="fa fa-search nav-search-icon "></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <div class="contentWrapper">
+
+        <div class="container">
+
+            <div class="newGallery">
+                <div class="row my-row">
+                    <div class="col-lg my-col left ">
+                        <div class="leftContent">
+                            <span>Life Style</span>
+                            <div>
+                                <p>Oct 27, 2020</p>
+                                <h5>Design is the key of showing value</h5>
+                                <p>stay focused and remember I design the best website.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg">
+                        <div class="row my-row">
+                            <div class="col my-col ">
+                                <div class="rightTop">
+                                    <span>Life Style</span>
+                                    <div>
+                                        <p>Oct 27, 2020</p>
+                                        <h5>After all is said and done, more is done</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row my-row">
+                            <div class="col-sm my-col">
+
+                                <div class="right3">
+                                    <span>Life Style</span>
+                                    <div>
+                                        <p>Oct 27, 2020</p>
+                                        <h5> Enjoy the website </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm my-col">
+                                <div class="right4"> <span>Life Style</span>
+                                    <div>
+                                        <p>Oct 27, 2020</p>
+                                        <h5>Design is fresh like swimming fishes </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trendingNews-container">
+                <div class="row">
+                    <div class="col-lg-8  main-left">
+                        <div class=" trendingNewsContent">
+                            <div class="trendingNewsHeader">
+                                <div class="left">
+                                    <span>Trending News</span>
+                                </div>
+                                <div class="right">
+                                    <ul>
+                                        <li class="active">All</li>
+                                        <li class="hideForSmall"> Foods </li>
+                                        <li class="hideForSmall"> Life Style </li>
+                                        <li class="hideForSmall"> Racing </li>
+                                        <li class="hideForSmall">Sports </li>
+                                        <li class="hideForSmall"> Swimming </li>
+                                        <li class="hideForSmall"> Technology </li>
+                                        <li class="hideForSmall"> Travel </li>
+                                        <li class="hideForSmall"> World </li>
+                                        <li class="threeDots">&hellip;</li>
+                                        <li class="arrow"> <i class="fas fa-chevron-left"></i> </li>
+                                        <li class="arrow"> <i class="fas fa-chevron-right"></i> </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row trendingNews">
+                                <div class="col-sm col-left">
+                                    <div class="leftContent">
+                                        <span>Life Style</span>
+                                        <div>
+                                            <h5> Enjoy the website </h5>
+                                            <p>Oct 27, 2020</p>
+
+                                        </div>
+                                        <i class="fas fa-bolt"></i>
+
+                                    </div>
+                                </div>
+                                <div class="col-sm col-right">
+                                    <div class="rightContent">
+                                        <div class="rightNew">
+                                            <img src="assets/news2.jpg" width="110" height="75" alt="">
+                                            <div class="rightNew-text">
+                                                <div class="date">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>Oct 19,2020</span>
+                                                </div>
+                                                <div class="title">
+                                                    <span>The Top 10 Best Computer Speakers in the Market</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rightNew">
+                                            <img src="assets/news6.jpg" width="110" height="75" alt="">
+                                            <div class="rightNew-text">
+                                                <div class="date">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>Oct 19,2020</span>
+                                                </div>
+                                                <div class="title">
+                                                    <span>The Top 10 Best Computer Speakers in the Market</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rightNew">
+                                            <img src="assets/news5.jpg" width="110" height="75" alt="">
+                                            <div class="rightNew-text">
+                                                <div class="date">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>Oct 19,2020</span>
+                                                </div>
+                                                <div class="title">
+                                                    <span>The Top 10 Best Computer Speakers in the Market</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rightNew">
+                                            <img src="assets/news4.jpg" width="110" height="75" alt="">
+                                            <div class="rightNew-text">
+                                                <div class="date">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>Oct 19,2020</span>
+                                                </div>
+                                                <div class="title">
+                                                    <span>The Top 10 Best Computer Speakers in the Market</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="rightNew">
+                                            <img src="assets/news3.jpg" width="110" height="75" alt="">
+                                            <div class="rightNew-text">
+                                                <div class="date">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>Oct 19,2020</span>
+                                                </div>
+                                                <div class="title">
+                                                    <span>The Top 10 Best Computer Speakers in the Market</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="categoriesContent">
+                            <div class="container">
+                                <div class="categoriesHeader">
+                                    <div class="left">
+                                        <span>Sports</span>
+                                    </div>
+                                    <div class="right">
+                                        <ul>
+                                            <li class="active">All</li>
+                                            <li> Football </li>
+                                            <li> Racing </li>
+                                            <li class="hideForSmall"> Swimming </li>
+                                            <li class="arrow"> <i class="fas fa-chevron-left"></i> </li>
+                                            <li class="arrow"> <i class="fas fa-chevron-right"></i> </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="categoriesContent">
+
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <div class="contentLeft">
+                                                <span>Football</span>
+                                                <img src="assets/category1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md">
+                                            <div class="contentRight">
+                                                <div class="infoWrapper">
+                                                    <div class="info">
+                                                        <i class="fas fa-user-circle"></i>
+                                                        <span>Fouad Badawy</span>
+                                                    </div>
+                                                    <div class="info">
+                                                        <i class="far fa-clock"></i>
+                                                        <span>Oct, 6 2016</span>
+                                                    </div>
+
+                                                    <div class="info ">
+                                                        <i class="far fa-comments"></i>
+                                                        <span>0</span>
+                                                    </div>
+                                                    <div class="info info-red">
+                                                        <i class="fas fa-fire"></i>
+                                                        <span>9,011</span>
+                                                    </div>
+                                                </div>
+                                                <div class="header">
+                                                    Les nouveaux maillots du Real Madrid pour la saison
+                                                </div>
+                                                <div class="detail">
+                                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est quod
+                                                    alias
+                                                    eligen animi dignissimos deleniti porro quisquam totam
+                                                    vitae qui a, molestiae...
+                                                </div>
+                                                <button>Read More ></button>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row category-down-row">
+                                        <div class="col-md myCol">
+                                            <img width="130" height="80" src="assets/category2.jpg" alt="">
+                                            <div class="detail">
+                                                <i class="far fa-clock"> Oct, 6 2016</i>
+                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Molestiae.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md myCol">
+                                            <img width="130" height="80" src="assets/category3.jpeg" alt="">
+                                            <div class="detail">
+                                                <i class="far fa-clock"> Oct, 6 2016</i>
+                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Molestiae.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row category-down-row">
+                                        <div class="col-md myCol">
+                                            <img width="130" height="80" src="assets/category4.jpg" alt="">
+                                            <div class="detail">
+                                                <i class="far fa-clock"> Oct, 6 2016</i>
+                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Molestiae.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm myCol">
+                                            <img width="130" height="80" src="assets/category5.jpg" alt="">
+                                            <div class="detail">
+                                                <i class="far fa-clock"> Oct, 6 2016</i>
+                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Molestiae.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="longcols-container">
+                            <div class="container">
+
+
+                                <div class="row">
+                                    <div class="col-sm">
+                                        <div class="categoriesHeader">
+                                            <div class="left">
+                                                <span>Racing</span>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                    <li class="arrow"> <i class="fas fa-chevron-left"></i> </li>
+                                                    <li class="arrow"> <i class="fas fa-chevron-right"></i> </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="postPhoto">
+                                            <img src="assets/news6new.jpg" alt="">
+                                            <span>Creative</span>
+                                            <i class="fas fa-bolt"></i>
+                                        </div>
+
+                                        <div class="postDate">
+                                            <div class="info-left">
+                                                <div class="info">
+                                                    <i class="fas fa-user-circle"></i>
+                                                    <span>Fouddsad Badawy</span>
+                                                </div>
+                                                <div class="info">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>Oct, 6 2016</span>
+                                                </div>
+                                            </div>
+                                            <div class="info-right">
+                                                <div class="info ">
+                                                    <i class="far fa-comments"></i>
+                                                    <span>0</span>
+                                                </div>
+                                                <div class="info info-red">
+                                                    <i class="fas fa-fire"></i>
+                                                    <span>9,011</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="postHeader">
+                                            <span>Play This Game for Free on steam</span>
+                                        </div>
+                                        <div class="postDetail">
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                                                ipsum quae quis iuue labore
+                                                corrupti.</span>
+                                        </div>
+                                        <div class="btn">
+                                            <button>Read More ></button>
+                                        </div>
+                                        <div class="bottomPost">
+                                            <div class="postPhoto">
+                                                <img src="assets/news5.jpg" alt="">
+                                            </div>
+
+                                            <div class="postDetail">
+                                                <div class="postDate">
+                                                    <div class="info-left">
+
+                                                        <div class="info">
+                                                            <i class="far fa-clock"></i>
+                                                            <span>Oct, 6 2016</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="postDetail">
+                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        corrupti.</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="bottomPost">
+                                            <div class="postPhoto">
+                                                <img src="assets/news4.jpg" alt="">
+                                            </div>
+                                            <div class="postDetail">
+                                                <div class="postDate">
+                                                    <div class="info-left">
+
+                                                        <div class="info">
+                                                            <i class="far fa-clock"></i>
+                                                            <span>Oct, 6 2016</span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="postDetail">
+                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        corrupti.</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm">
+                                        <div class="categoriesHeader longcols-header-right">
+                                            <div class="left">
+                                                <span>LifeStyle</span>
+                                            </div>
+                                            <div class="right">
+                                                <ul>
+                                                    <li class="arrow"> <i class="fas fa-chevron-left"></i> </li>
+                                                    <li class="arrow"> <i class="fas fa-chevron-right"></i> </li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="postPhoto">
+                                            <img src="assets/image2.jpg" alt="">
+                                            <span class="right">Travel</span>
+                                            <i class="fas fa-bolt"></i>
+                                        </div>
+
+                                        <div class="postDate">
+                                            <div class="info-left">
+                                                <div class="info">
+                                                    <i class="fas fa-user-circle"></i>
+                                                    <span>Fouddsad Badawy</span>
+                                                </div>
+                                                <div class="info">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>Oct, 6 2016</span>
+                                                </div>
+                                            </div>
+                                            <div class="info-right">
+                                                <div class="info ">
+                                                    <i class="far fa-comments"></i>
+                                                    <span>0</span>
+                                                </div>
+                                                <div class="info info-red">
+                                                    <i class="fas fa-fire"></i>
+                                                    <span>9,011</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="postHeader">
+                                            <span>Play This Game for Free on steam</span>
+                                        </div>
+                                        <div class="postDetail">
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                                                ipsum quae quis iuue labore
+                                                corrupti.</span>
+                                        </div>
+                                        <div class="btn btn-right">
+                                            <button>Read More ></button>
+                                        </div>
+                                        <div class="bottomPost">
+                                            <div class="postPhoto">
+                                                <img src="assets/news5.jpg" alt="">
+                                            </div>
+                                            <div class="postDetail">
+                                                <div class="postDate">
+                                                    <div class="info-left">
+                                                        <div class="info">
+                                                            <i class="far fa-clock"></i>
+                                                            <span>Oct, 6 2016</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="postDetail">
+                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        corrupti.</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="bottomPost">
+                                            <div class="postPhoto">
+                                                <img src="assets/news4.jpg" alt="">
+                                            </div>
+                                            <div class="postDetail">
+                                                <div class="postDate">
+                                                    <div class="info-left">
+
+                                                        <div class="info">
+                                                            <i class="far fa-clock"></i>
+                                                            <span>Oct, 6 2016</span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <div class="postDetail">
+                                                    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                        corrupti.</span>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-4 main-right">
+
+                        <div class="row header">
+                            <div class="left">
+                                <span>Follow Us</span>
+                            </div>
+                            <div class="right">
+                                <i class="fas fa-thumbs-up"></i>
+                            </div>
+                        </div>
+                        <div class="row followers">
+                            <i class="fas fa-heart"></i>
+                            <span>Join <strong>275K</strong> Followers</span>
+                        </div>
+                        <div class="row media-cards">
+                            <div class="col">
+                                <div style="background-color: #4080FF;" class="social-card">
+                                    <div class="col icon">
+                                        <i class="fab fa-facebook"></i>
+                                    </div>
+                                    <div class="col card-info">
+                                        <strong>14,747</strong>
+                                        <span>Fans</span>
+                                    </div>
+                                </div>
+                                <div style="background-color: #ef4e41;" class="social-card">
+                                    <div class="col icon">
+                                        <i class="fab fa-youtube"></i>
+                                    </div>
+                                    <div class="col card-info">
+                                        <strong>14,747</strong>
+                                        <span>Fans</span>
+                                    </div>
+                                </div>
+                                <div style="background-color: #f7659c;" class="social-card">
+                                    <div class="col icon">
+                                        <i class="fab fa-dribbble"></i>
+                                    </div>
+                                    <div class="col card-info">
+                                        <strong>14,747</strong>
+                                        <span>Fans</span>
+                                    </div>
+                                </div>
+                                <div style="background-color: #1879fd;" class="social-card">
+                                    <div class="col icon">
+                                        <i class="fab fa-behance"></i>
+                                    </div>
+                                    <div class="col card-info">
+                                        <strong>14,747</strong>
+                                        <span>Fans</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div style="background-color: #40bff5;" class="social-card">
+                                    <div class="col icon">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                    <div class="col card-info">
+                                        <strong>14,747</strong>
+                                        <span>Fans</span>
+                                    </div>
+                                </div>
+                                <div style="background-color: #35c6ea;" class="social-card">
+                                    <div class="col icon">
+                                        <i class="fab fa-vimeo"></i>
+                                    </div>
+                                    <div class="col card-info">
+                                        <strong>14,747</strong>
+                                        <span>Fans</span>
+                                    </div>
+                                </div>
+                                <div style="background-color: #ff7e30;" class="social-card">
+                                    <div class="col icon">
+                                        <i class="fab fa-soundcloud"></i>
+                                    </div>
+                                    <div class="col card-info">
+                                        <strong>14,747</strong>
+                                        <span>Fans</span>
+                                    </div>
+                                </div>
+                                <div style="background-color: #c13584;" class="social-card">
+                                    <div class="col icon">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                    <div class="col card-info">
+                                        <strong>14,747</strong>
+                                        <span>Fans</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="row weather">
+                            <div class="weatherCard">
+                                <div class="weatherHeader">
+                                    <span>Weather</span>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="weatherIcon">
+                                    <i class="far fa-moon"></i>
+                                </div>
+                                <div class="weatherCity">
+                                    <span class="name">Denizli Province</span>
+                                    <span class="status">Clear Sky</span>
+                                    <div class="temp">
+                                        <span class="temp">29</span>
+                                        <span class="tempIcon">&#x2103;</span>
+                                    </div>
+                                </div>
+                                <div class="weatherDetails">
+                                    <i class="fas fa-temperature-low">&nbsp;&nbsp;9&#730; - 12&#730;</i>
+                                    <i class="fas fa-tint">&nbsp;&nbsp;61%</i>
+                                    <i class="fas fa-wind">&nbsp;&nbsp;2.1km/h</i>
+                                </div>
+                                <div class="weatherOtherDays">
+                                    <div>
+                                        <i class="fas fa-cloud-sun"></i>
+                                        <span>28&#x2103;</span>
+                                        <span>Fri</span>
+                                    </div>
+                                    <div>
+                                        <i class="far fa-sun"></i>
+                                        <span>28&#x2103;</span>
+                                        <span>Sat</span>
+                                    </div>
+                                    <div>
+                                        <i class="far fa-sun"></i>
+                                        <span>28&#x2103;</span>
+                                        <span>Sun</span>
+                                    </div>
+                                    <div>
+                                        <i class="far fa-sun"></i>
+                                        <span>28&#x2103;</span>
+                                        <span>Mon</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="row comments">
+                            <div class="commentscontainer">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="recent-tab" data-toggle="tab" href="#recent"
+                                            role="tab" aria-controls="recent" aria-selected="true">Recent</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile"
+                                            role="tab" aria-controls="profile" aria-selected="false">Popular</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact"
+                                            role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="content tab-pane fade show active" id="recent" role="tabpanel"
+                                        aria-labelledby="recent-tab">
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/image1.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">After all is said and one, more is done</span>
+                                                <span> <i class="far fa-clock"></i> Sep 2, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/imageBal.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">Success is not a good teacher failure makes you
+                                                    humble</span>
+                                                <span> <i class="far fa-clock"></i> Sep 7, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/image2.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">Budget issues force the Tour to be cancelled</span>
+                                                <span> <i class="far fa-clock"></i> Sep 3, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/image4.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">Instagram’s big redesign goes live with
+                                                    black-and-white app</span>
+                                                <span> <i class="far fa-clock"></i> Sep 5, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/news2.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">The only thing that overcomes hard luck is hard
+                                                    work</span>
+                                                <span> <i class="far fa-clock"></i> Sep 3, 2020 </span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="content tab-pane fade" id="profile" role="tabpanel"
+                                        aria-labelledby="profile-tab">
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/image4.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">New law for Fishers</span>
+                                                <span> <i class="far fa-clock"></i> Sep 2, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/category2.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">Success is not a good teacher failure makes you
+                                                    humble</span>
+                                                <span> <i class="far fa-clock"></i> Sep 7, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/category4.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">Make sure your kid is healthy</span>
+                                                <span> <i class="far fa-clock"></i> Sep 3, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/category5.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">Google' CEO in trip</span>
+                                                <span> <i class="far fa-clock"></i> Sep 5, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/category1.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">The only thing that overcomes hard luck is hard
+                                                    work</span>
+                                                <span> <i class="far fa-clock"></i> Sep 3, 2020 </span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="content tab-pane fade" id="contact" role="tabpanel"
+                                        aria-labelledby="contact-tab">
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/image1.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">After all is said and one, more is done</span>
+                                                <span> <i class="far fa-clock"></i> Sep 2, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/imageBal.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">Success is not a good teacher failure makes you
+                                                    humble</span>
+                                                <span> <i class="far fa-clock"></i> Sep 7, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/image2.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">Budget issues force the Tour to be cancelled</span>
+                                                <span> <i class="far fa-clock"></i> Sep 3, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/image4.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">Instagram’s big redesign goes live with
+                                                    black-and-white app</span>
+                                                <span> <i class="far fa-clock"></i> Sep 5, 2020 </span>
+                                            </div>
+
+                                        </div>
+                                        <div class="commentCard">
+                                            <div class="image">
+                                                <img src="assets/news2.jpg" width="130" height="90" alt="">
+                                            </div>
+                                            <div class="details">
+                                                <span class="bold">The only thing that overcomes hard luck is hard
+                                                    work</span>
+                                                <span> <i class="far fa-clock"></i> Sep 3, 2020 </span>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row bannerPhotos">
+
+            <div class="col-md-3 banner banner1">
+                <span class="bannerTag">Sports</span>
+
+                <div class="info">
+                    <span class="date">Oct, 3 2020</span>
+                    <span>Saturday's non-league football</span>
+                </div>
+            </div>
+
+            <div class="col-md-3 banner banner2">
+                <span class="bannerTag">Sports</span>
+
+                <div class="info">
+                    <span class="date">Sep, 3 2020</span>
+                    <span>Chinese Tourist Pump Cash Into a Hot Destination</span>
+                </div>
+            </div>
+
+            <div class="col-md-3 banner banner3">
+                <span class="bannerTag">Sports</span>
+
+                <div class="info">
+                    <span class="date">Oct, 3 2020</span>
+                    <span>A refined Restaurant, Hold the Table Linens</span>
+                </div>
+            </div>
+
+        </div>
+        <!--BOTTOM SECTION NEW SECTION-->
+        <!--BOTTOM SECTION NEW SECTION-->
+        <!--BOTTOM SECTION NEW SECTION-->
+        <!--BOTTOM SECTION NEW SECTION-->
+
+        <div class="container secondSection">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="categoriesContent techContent">
+                        <div class="container">
+                            <div class="categoriesHeader">
+                                <div class="left">
+                                    <span>Technology</span>
+                                </div>
+                                <div class="right">
+                                    <ul>
+                                        <li class="active">All</li>
+                                        <li> Creative </li>
+                                        <li> World </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="categoriesContent techContent">
+
+                                <div class="row">
+                                    <div class="col-lg-8"></div>
+                                    <div class="col-md">
+                                        <div class="contentLeft">
+                                            <span>Travel</span>
+                                            <i class="fas fa-bolt"></i>
+                                            <img src="assets/imageBal.jpg" alt="">
+                                        </div>
+                                        <div class="contentRight">
+                                            <div class="infoWrapper">
+                                                <div class="info">
+                                                    <i class="fas fa-user-circle"></i>
+                                                    <span>Fouad Badawy</span>
+                                                </div>
+                                                <div class="info">
+                                                    <i class="far fa-clock"></i>
+                                                    <span>Oct, 6 2016</span>
+                                                </div>
+
+                                                <div class="info ">
+                                                    <i class="far fa-comments"></i>
+                                                    <span>0</span>
+                                                </div>
+                                                <div class="info info-red">
+                                                    <i class="fas fa-fire"></i>
+                                                    <span>9,011</span>
+                                                </div>
+                                            </div>
+                                            <div class="header">
+                                                Les2 nouveaux maillots du Real Madrid pour la saison
+                                            </div>
+                                            <div class="detail">
+                                                Stay focused and remember we design the best WordPress News and Magazine
+                                                Themes. It’s the ones closest to you that want to…
+                                            </div>
+                                            <button>Read More &gt;</button>
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md col-tech-right">
+                                        <div class="col-md myCol">
+                                            <img width="130" height="80" src="assets/image2.jpg" alt="">
+                                            <div class="detail">
+                                                <i class="far fa-clock"> Oct, 6 2016</i>
+                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Molestiae.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md myCol">
+                                            <img width="130" height="80" src="assets/category3.jpeg" alt="">
+                                            <div class="detail">
+                                                <i class="far fa-clock"> Oct, 6 2016</i>
+                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Molestiae.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-md myCol">
+                                            <img width="130" height="80" src="assets/news1.jpg" alt="">
+                                            <div class="detail">
+                                                <i class="far fa-clock"> Oct, 6 2016</i>
+                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Molestiae.</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm myCol">
+                                            <img width="130" height="80" src="assets/category1.jpg" alt="">
+                                            <div class="detail">
+                                                <i class="far fa-clock"> Oct, 6 2016</i>
+                                                <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                                    Molestiae.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="pagination">
+                                        <span> <i class="fas fa-chevron-left"></i> Previous &nbsp;</span>
+                                        <span> Next &nbsp;<i class="fas fa-chevron-right"></i></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="videosContainer">
+                        <div class="videosHeader">
+                            <div class="left">
+                                <span>Videos</span>
+                            </div>
+                            <div class="right">
+                                <ul>
+                                    <li class="arrow"> <i class="fas fa-chevron-left"></i> </li>
+                                    <li class="arrow"> <i class="fas fa-chevron-right"></i> </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="videosContent">
+                            <img src="assets/bicycle2.jpeg" alt="">
+                            <i class="far fa-play-circle"></i>
+                            <span class="tag">Racing</span>
+                            <span class="videoHeader">Here What's in Battlefield 1's $80 Deluxe Edition</span>
+                        </div>
+
+                        <div class="bottomVideos">
+                            <div class="row">
+                                <div class="col-sm-4 videoCard">
+                                    <img src="assets/video2.jpg" alt="">
+                                    <div class="date">
+                                        <i class="far fa-clock"> Oct 16, 2020</i>
+                                        <span> At Value-Focused Hotels, the Free Breakfast Gets Bigger </span>
+                                    </div>
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+
+                                <div class="col-sm-4 videoCard">
+                                    <img src="assets/video3.jpg" alt="">
+                                    <div class="date">
+                                        <i class="far fa-clock"> Oct 16, 2020</i>
+                                        <span> At Value-Focused Hotels, the Free Breakfast Gets Bigger </span>
+                                    </div>
+                                    <i class="far fa-play-circle"></i>
+                                </div>
+                                <div style="margin: 0 auto;" class="adBanner">
+                                    <img style=" padding-top: 20px; padding-bottom: 20px; object-fit: contain;"
+                                        src="assets/ads1.jpg" alt="reklam" width="100%">
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                    <!--bottom cards-->
+                    <!--bottom cards-->
+                    <!--bottom cards-->
+                    <!--bottom cardss-->
+                    <div class="row bottomCards">
+                        <div class="videosContainer">
+                            <div class="videosHeader">
+                                <div class="left">
+                                    <span>What's new</span>
+                                </div>
+                                <div class="right">
+                                    <ul>
+                                        <li class="arrow"> <i class="fas fa-chevron-left"></i> </li>
+                                        <li class="arrow"> <i class="fas fa-chevron-right"></i> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="bottomVideos">
+                                <div class="row">
+                                    <div class="col-sm-6 videoCard">
+                                        <img src="assets/bottomcard1.jpg" alt="">
+                                        <div class="date">
+                                            <i class="far fa-user-circle"> Fouad Badawy &nbsp; <i class="far fa-clock">
+                                                    Oct 16,
+                                                    2020</i></i>
+                                            <i class="fas fa-comment"> 0 &nbsp; <i class="fas fa-fire"> 10,680</i></i>
+                                        </div>
+                                        <h5>25 Tricks That Will Increase Your Productivity</h5>
+                                        <p>Stay focused and remember we design the best WordPress News and Magazine
+                                            Themes. It’s the ones closest to you that…</p>
+                                    </div>
+
+                                    <div class="col-sm-6 videoCard">
+                                        <img src="assets/bottomcard2.jpg" alt="">
+                                        <div class="date">
+                                            <i class="far fa-user-circle"> Fouad Badawy &nbsp; <i class="far fa-clock">
+                                                    Oct 16,
+                                                    2020</i></i>
+                                            <i class="fas fa-comment"> 0 &nbsp; <i class="fas fa-fire"> 10,680</i></i>
+
+                                        </div>
+                                        <h5>25 Tricks That Will Increase Your Productivity</h5>
+                                        <p>Stay focused and remember we design the best WordPress News and Magazine
+                                            Themes. It’s the ones closest to you that…</p>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6 videoCard">
+                                        <img src="assets/category1.jpg" alt="">
+                                        <div class="date">
+                                            <i class="far fa-user-circle"> Fouad Badawy &nbsp; <i class="far fa-clock">
+                                                    Oct 16,
+                                                    2020</i></i>
+                                            <i class="fas fa-comment"> 0 &nbsp; <i class="fas fa-fire"> 10,680</i></i>
+                                        </div>
+                                        <h5>25 Tricks That Will Increase Your Productivity</h5>
+                                        <p>Stay focused and remember we design the best WordPress News and Magazine
+                                            Themes. It’s the ones closest to you that…</p>
+                                    </div>
+
+                                    <div class="col-sm-6 videoCard">
+                                        <img src="assets/dumbel.jpg" alt="">
+                                        <div class="date">
+                                            <i class="far fa-user-circle"> Fouad Badawy &nbsp; <i class="far fa-clock">
+                                                    Oct 16,
+                                                    2020</i></i>
+                                            <i class="fas fa-comment"> 0 &nbsp; <i class="fas fa-fire"> 10,680</i></i>
+
+                                        </div>
+                                        <h5>25 Tricks That Will Increase Your Productivity</h5>
+                                        <p>Stay focused and remember we design the best WordPress News and Magazine
+                                            Themes. It’s the ones closest to you that…</p>
+                                    </div>
+                                </div>
+
+                                <button>Load More</button>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mostViewed">
+                    <div class="categoriesHeader">
+                        <div class="left">
+                            <span>Most Viewed</span>
+                        </div>
+                        <div class="right">
+                            <i class="far fa-file-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="content">
+                        <div class="cardd">
+                            <img src="assets/imageBal.jpg" width="140" height="100" alt="">
+                            <div class="text">
+                                <h5>Success is not a good teacher failure makes you humble</h5>
+                                <span><i class="far fa-clock"></i> Oct 26, 2020</span>
+                            </div>
+                            <span class="circle">1</span>
+                        </div>
+
+                        <div class="cardd">
+                            <img src="assets/image1.jpg" width="140" height="100" alt="">
+                            <div class="text">
+                                <h5>Success is not a good teacher failure makes you humble</h5>
+                                <span><i class="far fa-clock"></i> Oct 26, 2020</span>
+                            </div>
+                            <span class="circle">2</span>
+                        </div>
+                        <div class="cardd">
+                            <img src="assets/news1.jpg" width="140" height="100" alt="">
+                            <div class="text">
+                                <h5>Success is not a good teacher failure makes you humble</h5>
+                                <span><i class="far fa-clock"></i> Oct 26, 2020</span>
+                            </div>
+                            <span class="circle">3</span>
+                        </div>
+                        <div class="cardd">
+                            <img src="assets/bottomcard2.jpg" width="140" height="100" alt="">
+                            <div class="text">
+                                <h5>Success is not a good teacher failure makes you humble</h5>
+                                <span><i class="far fa-clock"></i> Oct 26, 2020</span>
+                            </div>
+                            <span class="circle">4</span>
+                        </div>
+                        <div class="cardd">
+                            <img src="assets/bicycle2.jpeg" width="140" height="100" alt="">
+                            <div class="text">
+                                <h5>Success is not a good teacher failure makes you humble</h5>
+                                <span><i class="far fa-clock"></i> Oct 26, 2020</span>
+                            </div>
+                            <span class="circle">5</span>
+                        </div>
+                    </div>
+
+                    <div class="advert">
+                        <p>Advertisement</p>
+                        <img width="320" height="auto" src="assets/advert1.jpg" alt="">
+                    </div>
+                    <div class="advert2">
+                        <i class="fas fa-envelope"></i>
+                        <h6>With Product You purchase</h6>
+                        <h4>Subscribe to our mailing list to get the new updates!</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                        <input type="email" placeholder="Enter your Email address">
+                        <button>Subscribe</button>
+                    </div>
+
+                    <div class="lastCategories">
+                        <div class="categoriesHeader">
+                            <div class="left">
+                                <span>Categories</span>
+                            </div>
+                            <div class="right">
+                                <i style="color: lightgray;" class="fas fa-folder"></i>
+                            </div>
+                        </div>
+
+                        <div class="listWrapper">
+                            <div class="list">
+                                <i class="fas fa-chevron-right"> &nbsp; <span>Life </span> </i>
+                                <span style="background: rgb(131, 98, 56);" class="number">35</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-chevron-right"> &nbsp; <span>World </span> </i>
+                                <span style="background: rgb(31, 221, 79);" class="number">35</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-chevron-right"> &nbsp; <span>Travel </span> </i>
+                                <span style="background: rgb(45, 81, 225);" class="number">35</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-chevron-right"> &nbsp; <span>Foods </span> </i>
+                                <span style="background: rgb(228, 56, 56);" class="number">35</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-chevron-right"> &nbsp; <span>Creative </span> </i>
+                                <span style="background: rgb(176, 51, 208);" class="number">35</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-chevron-right"> &nbsp; <span>Sports </span> </i>
+                                <span style="background: rgb(24, 157, 28);" class="number">35</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-chevron-right"> &nbsp; <span>Football </span> </i>
+                                <span style="background: rgb(30, 170, 93);" class="number">35</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-chevron-right"> &nbsp; <span>Technology </span> </i>
+                                <span style="background: rgb(42, 191, 196);" class="number">35</span>
+                            </div>
+                            <div class="list">
+                                <i class="fas fa-chevron-right"> &nbsp; <span>Posts </span> </i>
+                                <span style="background: rgb(30, 36, 221);" class="number">35</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <span class="footHeader"> Most Viewed Posts</span>
+                        <div class="data">
+                            <p>Oct 29, 2020</p>
+                            <span>Success is not a good teacher failure makes you humble </span>
+                        </div>
+                        <div class="data">
+                            <p>Oct 29, 2020</p>
+                            <span>Success is not a good teacher failure makes you humble </span>
+                        </div>
+                        <div class="data">
+                            <p>Oct 29, 2020</p>
+                            <span>Success is not a good teacher failure makes you humble </span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <span class="photosSpan footHeader">Last Modified Posts</span>
+                        <div class="photosWrapper">
+                            <div class="row photos">
+                                <div class="col-4">
+                                    <img src="assets/category5.jpg" alt="">
+                                </div>
+                                <div class="col-4"> <img src="assets/news4.jpg" alt=""></div>
+                                <div class="col-4"> <img src="assets/news3.jpg" alt=""></div>
+                            </div>
+                            <div class="row photos">
+                                <div class="col-4">
+                                    <img src="assets/news5.jpg" alt="">
+                                </div>
+                                <div class="col-4"> <img src="assets/news6.jpg" alt=""></div>
+                                <div class="col-4"> <img src="assets/category4.jpg" alt=""></div>
+                            </div>
+                            <div class="row photos">
+                                <div class="col-4">
+                                    <img src="assets/bottomcard1.jpg" alt="">
+                                </div>
+                                <div class="col-4"> <img src="assets/bottomcard2.jpg" alt=""></div>
+                                <div class="col-4"> <img src="assets/news2.jpg" alt=""></div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <div class="col-md-3">
+                        <span class="footHeader">Tags</span>
+                        <div class="tagsContent">
+                            <span>apple</span>
+                            <span>Dell</span>
+                            <span>Egypt</span>
+                            <span>Fashion</span>
+                            <span>google</span>
+                            <span>olympics</span>
+                            <span>football</span>
+                            <span>Race</span>
+                            <span>Video</span>
+                            <span>Tech</span>
+                            <span>twitter</span>
+                            <span>tbt</span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-3">
+                        <span class="footHeader">Follow us</span>
+                        <div class="followContent">
+                            <div class="tweet">
+                                <div class="tweetData">
+                                    <i style="color: rgb(40, 94, 230);" class="fab fa-twitter"></i>
+                                    <p>
+                                        Coming Soon, Stay Tuned #jannah #big_update #jannah5 #wordpress
+                                        https://t.co/IQsH1hLnMr</p>
+                                </div>
+                                <div class="tweetDate">
+                                    <span>2020/08/14</span>
+                                </div>
+                            </div>
+                            <div class="tweet">
+                                <div class="tweetData">
+                                    <i style="color: rgb(40, 94, 230);" class="fab fa-twitter"></i>
+                                    <p>
+                                        Coming Soon, Stay Tuned #jannah #big_update #jannah5 #wordpress
+                                        https://t.co/IQsH1hLnMr</p>
+                                </div>
+                                <div class="tweetDate">
+                                    <span>2020/08/14</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row lastRow">
+                    <div class="col-md-4"> <img src="assets/logo1.png" style="object-fit: contain; width: 100%;" alt="">
+                    </div>
+                    <div class="col-md-4">
+                        <p>Haber nokta is a Clean Responsive WordPress Newspaper, Magazine, News and Blog theme. Packed
+                            with options that allow you to completely customize your website to your needs.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="lastInput">
+                            <input type="email" placeholder="Enter your Email address">
+                            <button>Subscribe</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer-end">
+            <div class="left">
+                <span>
+                    &copy; Copyright 2020, All Rights Reservred
+                </span>
+            </div>
+            <div class="right">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-dribbble"></i>
+                <i class="fab fa-soundcloud"></i>
+                <i class="fab fa-instagram"></i>
+                <span>Home</span>
+                <span>Activity</span>
+                <span>Authors</span>
+                <span>Members</span>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,331 @@
+@import "variables";
+@import "content";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background: white;
+}
+nav {
+  box-shadow: 0px -2px 30px 0px #c4c2c4;
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(135deg, #2f88d6, #5933a2);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+    text-align: left;
+    .list {
+      border-bottom: 0.3px solid rgba($color: #a3a1a1, $alpha: 0.4);
+    }
+    .social {
+      text-align: center;
+      justify-content: center;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      i {
+        margin-left: 20px;
+        color: white;
+        font-weight: 600;
+      }
+    }
+    form {
+      z-index: 99999;
+      border: 1px solid rgba(211, 211, 211, 0.275);
+      margin: 0 20px;
+      border-radius: 15px;
+      background-color: rgba(0, 0, 0, 0.07);
+      ::placeholder {
+        /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: white;
+        opacity: 0.4; /* Firefox */
+      }
+      .input-group {
+        input {
+          border: none;
+          background: none;
+          color: lightgray;
+        }
+        i {
+          color: white;
+        }
+      }
+    }
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+  }
+}
+
+.navTop {
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  font-size: 13px;
+  width: 100%;
+  height: 30px;
+  padding: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  .container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    .navTopLeft {
+      float: left;
+      display: flex;
+      align-items: center;
+      vertical-align: center;
+      .time {
+        display: flex;
+        align-items: center;
+        i {
+          padding-right: 5px;
+        }
+        p {
+          margin: 0;
+        }
+      }
+      .topNewsHeader {
+        background-color: red;
+        height: 30px;
+        text-align: center;
+        vertical-align: center;
+        align-items: center;
+        line-height: 25px;
+        padding: 3px 10px;
+        color: white;
+        margin: 0 10px;
+      }
+    }
+    .navTopRight {
+      height: 30px;
+      float: right;
+      display: inline-flex;
+      align-items: center;
+      vertical-align: center;
+      .rihtIcons {
+        display: flex;
+        align-items: center;
+        vertical-align: center;
+        i {
+          margin-left: 10px;
+        }
+        .left-right {
+          border: 0.5px solid rgba(128, 128, 128, 0.315);
+          padding: 3px 4px;
+          background-color: transparent;
+          color: rgb(146, 146, 146);
+          font-weight: 100;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+.navMiddle {
+  //   height: 90px;
+  margin: 20px 0;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  .container {
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    .logo {
+      //   float: left;
+      .mobilToggle {
+        display: flex;
+        justify-content: space-between;
+        vertical-align: middle;
+        align-items: center;
+        font-size: 19px;
+        .left {
+          margin-left: 5px;
+        }
+        .right {
+          margin-right: 5px;
+        }
+
+        img {
+          object-fit: contain;
+          max-height: 49px !important;
+          width: auto;
+        }
+        .left span,
+        i {
+          margin-right: 9px;
+        }
+        .right i {
+          margin-right: 9px;
+        }
+      }
+    }
+    .adBanner {
+      margin-left: auto;
+      float: right;
+      img {
+        object-fit: contain;
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+.navMainWrapper {
+  height: 60px;
+  .navMain {
+    align-items: center;
+    background-color: $myBlack;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    .navMain-Left {
+      color: white;
+      ul {
+        padding-left: 6px;
+        font-size: 12px;
+        font-weight: 600;
+        display: flex;
+        margin: 0;
+        li {
+          margin-right: 15px;
+        }
+      }
+    }
+    .navMain-Right {
+      color: white;
+
+      ul {
+        font-size: 14px;
+        font-weight: 400;
+        vertical-align: middle;
+        align-items: center;
+        margin: 0;
+        display: flex;
+
+        li {
+          margin-right: 15px;
+          .input-group-append {
+            z-index: 0;
+          }
+        }
+        .nav-search {
+          background: none;
+          border: none;
+          border-left: 1px solid gray;
+        }
+        .nav-search-icon {
+          border: none;
+          background: transparent !important;
+          color: gray;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991.5px) {
+  //toggle menu is coming, 1 picture go down
+  .disappearForTablet {
+    display: none;
+  }
+  .navMiddle .container {
+    display: inline-block;
+    .adBanner {
+      float: unset;
+      margin-left: unset;
+      text-align: center;
+    }
+  }
+  .container {
+    max-width: unset;
+    padding: 0;
+  }
+  nav {
+    box-shadow: unset;
+  }
+  .navMiddle {
+    margin: 0;
+    .logo {
+      box-shadow: 0 6px 6px -5px lightgrey;
+    }
+  }
+
+  .adBanner {
+    padding: 13px 0;
+  }
+}
+@media only screen and (max-width: 769px) {
+  //news disappear
+  .disappearForMobil {
+    display: none;
+  }
+  .container {
+    max-width: unset;
+  }
+}
+@media only screen and (max-width: 321px) {
+  .container {
+    max-width: unset;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .container {
+    max-width: unset;
+  }
+  .navMiddle .container .logo .mobilToggle {
+    font-size: 14px;
+    img {
+      max-height: 32px !important;
+    }
+  }
+}
+
+@media only screen and (min-width: 991.5px) {
+  //toggle menu is coming, 1 picture go down
+  .showOnTablet {
+    display: none;
+  }
+}
